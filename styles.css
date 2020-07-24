@@ -85,6 +85,9 @@ main {
   border: 0;
   padding: 0;
   margin: 0.5rem;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  color: #2B4E80;
 }
 
 .question-input::placeholder {
@@ -129,5 +132,6 @@ main {
   height: 2rem;
   width: 4.5rem;
   border: 0;
+  color: #ffffff;
   background-color: #D0CDCD
 }
