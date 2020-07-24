@@ -1,12 +1,35 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Life+Savers:800" rel="stylesheet">
-    <link rel="stylesheet" href="./styles.css">
-    <title>Will Andy Pick Me?</title>
-  </head>
-  <body>
 
-  </body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Life+Savers:800" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Will Andy Pick Me?</title>
+</head>
+
+<body class="full-page">
+  <h1 class="page-title">Will Andy pick me?</h1>
+  <main>
+    <img class="woody-img" src="./assets/woody.png" alt="woody">
+    <div class="input-form">
+      <section class="top-of-form">
+        <input placeholder="Ask your question here!" type="text" class="question-input" name="question-input" value="">
+        <button class="get-answer-button" type="button" name="button">Get your answer</button>
+      </section>
+      <section class="answers">
+        <p class="question hidden">question</p>
+        <p class="answer hidden">answer</p>
+      </section>
+      <section class="middle-of-form">
+        <img src="./assets/eight-ball.png" class="ball-image" alt="magic eight ball">
+      </section>
+      <section class="bottom-of-form">
+        <button type="button" class="clear-button" name="clear-button">Clear</button>
+      </section>
+    </div>
+  </main>
+</body>
+
 </html>
